@@ -141,24 +141,26 @@ We welcome contributions! See our [Contributing Guide](CONTRIBUTING.md) for deta
 ## 📈 Roadmap
 
 ### Phase 1
-- [x] Core similarity engine
-- [x] Basic document grouping
+As a user, I would like to be able to upload and/or sync documents within Google Drive.  I would like the documents contained within the app to show me which ones are similar to one another and try to group them into folders based on similarity.
+- [ ] Core similarity engine
+- [ ] Basic document grouping
 - [ ] Google Drive integration
 - [ ] Initial API release
 
 ### Phase 2
+As a product manager, I would like to use either Dropbox or Google Drive - this enables the most common cloud drive platforms to use what we have built.  As a user, I would like to have my documents summarized and then easily searched.  I would also like to use this application from my mobile device.
 - [ ] Dropbox integration
 - [ ] Advanced summarization
 - [ ] Batch processing
 - [ ] Mobile-responsive UI
 
-### Phase 3
+### Phase 3 TODO - update this
 - [ ] Enterprise features
 - [ ] Advanced permission system
 - [ ] Custom ML model training
 - [ ] API rate limiting
 
-### Phase 4
+### Phase 4 TODO - update this
 - [ ] Additional storage providers
 - [ ] Advanced analytics
 - [ ] Workflow automation
