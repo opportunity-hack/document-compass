@@ -87,7 +87,7 @@ git clone https://github.com/opportunity-hack/document-compass.git
 # Install dependencies
 cd document-compass
 pip install -r requirements.txt
-cd frontend && npm install
+cd packages/interface && npm install
 
 # Set up environment
 cp .env.example .env
@@ -103,7 +103,7 @@ python manage.py migrate
 python manage.py runserver
 
 # Start frontend (new terminal)
-cd frontend && npm run dev
+cd packages/interface && npm run dev
 ```
 
 ## 📊 Project Structure
